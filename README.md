@@ -1,41 +1,56 @@
-# POS System — SQL Server Edition
+# 🧾 Sasan Printing Enterprises – POS System
 
-Full-stack Point of Sale web application.
+Full-stack **Point of Sale (POS) Web Application** built for billing, inventory, and shop management.
 
-**Stack:** React 18 + TypeScript + Bootstrap 5 | Node.js + Express | Microsoft SQL Server
+---
 
-## Quick Start
+## 🚀 Tech Stack
 
-### 1. Database
-Run `database/schema.sql` in SSMS, then update `server/.env` with your credentials.
+**Frontend**
+- React 18
+- TypeScript
+- Bootstrap 5
 
-### 2. Backend
+**Backend**
+- Node.js
+- Express.js
+
+**Database**
+- Microsoft SQL Server (SSMS)
+
+---
+
+## 📦 Features
+
+- 🧾 POS Billing Screen (Barcode Scan)
+- 🛒 Cart System with GST & Discount
+- 💳 Payment Options (Cash / Card / UPI)
+- 📦 Product & Category Management
+- 📊 Orders & Reports
+- 👥 Customer Management
+- 👤 User Roles (Admin / Cashier)
+- 🖨️ Printable Thermal Receipt
+- 🌙 Dark / Light Mode
+- ⌨️ Keyboard Shortcuts:
+  - `F2` → Barcode Scan
+  - `F10` → Checkout
+  - `Esc` → Clear Cart
+
+---
+
+## 🔐 Login Credentials
+
+| Role    | Username | Password   |
+|---------|----------|------------|
+| Admin   | admin    | admin123   |
+| Cashier | cashier  | cashier123 |
+
+---
+
+## ⚙️ Project Setup (Local Development)
+
+### 1️⃣ Clone Repository
+
 ```bash
-cd server
-npm install
-npm run seed     # creates tables + sample data
-npm run dev      # starts on http://localhost:5001
-```
-
-### 3. Frontend
-```bash
-cd client
-npm install
-npm run dev      # starts on http://localhost:3001
-```
-
-## Login
-| Role    | Username  | Password    |
-|---------|-----------|-------------|
-| Admin   | admin     | admin123    |
-| Cashier | cashier   | cashier123  |
-
-## Features
-- POS billing screen with barcode scan, cart, GST, discount, Cash/Card/UPI
-- Products, Categories, Orders, Customers, Reports, Users, Settings
-- Printable thermal receipt
-- Dark / Light mode
-- Keyboard shortcuts: F2 (barcode), F10 (checkout), Esc (clear cart)
-=======
-# sasan_printing_enterprises
->>>>>>> 53a2a6cc56bb34dc2e74bcb2c64eeac3ee876223
+git clone https://github.com/your-username/sasan_printing_enterprises.git
+cd sasan_printing_enterprises

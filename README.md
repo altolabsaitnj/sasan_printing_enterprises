@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # POS System — SQL Server Edition
 
 Full-stack Point of Sale web application.

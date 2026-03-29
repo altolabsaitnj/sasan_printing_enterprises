@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # POS System — SQL Server Edition
 
 Full-stack Point of Sale web application.
@@ -36,3 +37,6 @@ npm run dev      # starts on http://localhost:3001
 - Printable thermal receipt
 - Dark / Light mode
 - Keyboard shortcuts: F2 (barcode), F10 (checkout), Esc (clear cart)
+=======
+# sasan_printing_enterprises
+>>>>>>> 53a2a6cc56bb34dc2e74bcb2c64eeac3ee876223

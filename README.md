@@ -52,5 +52,5 @@ Full-stack **Point of Sale (POS) Web Application** built for billing, inventory,
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/sasan_printing_enterprises.git
+git clone https://github.com/altolabsaitnj/sasan_printing_enterprises.git
 cd sasan_printing_enterprises
